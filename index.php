@@ -3,10 +3,10 @@
    <?php
 session_start();
 require 'functions.php';
- if( !isset($_SESSION["login"])){
-     header("location: index.php");
-     exit;  
- } 
+ // if( !isset($_SESSION["login"])){
+ //     header("location: index.php");
+ //     exit;  
+ // } 
 require_once('./header.php');?>  
     <!-- Header Section End -->
 
