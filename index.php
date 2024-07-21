@@ -4,7 +4,7 @@
 session_start();
 require 'functions.php';
  if( !isset($_SESSION["login"])){
-     header("location: login.php");
+     header("location: index.php");
      exit;  
  } 
 require_once('./header.php');?>  
